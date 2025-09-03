@@ -13,7 +13,7 @@ import Movies from "./pages/Movies.jsx";
 import Popular from "./pages/Popular.jsx";
 import TopComments from "./Comments/TopComments.jsx";
  import { ContextProvider } from "./Comments/Context/Context.jsx";
-import StarRate from "./RStar/StarRate.jsx";
+import StarRate from "./Rstar/StarRate.jsx";
 import MessageScroll from "./Comments/MessageScroll.jsx"
 import EmailVerify from "./LoginPage/EmailVerify.jsx";
 import ResetPassword from "./LoginPage/ResetPassword.jsx";
