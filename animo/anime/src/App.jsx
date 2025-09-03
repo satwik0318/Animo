@@ -6,11 +6,11 @@ import Lights from "./lightchanger/SwitchStyles.jsx";
 import Menu from "./MenuBar/Menu.jsx"
 import { BrowserRouter as Router ,Route,Routes, Navigate} from "react-router-dom";
 import Home from "./pages/Home.jsx";
-import Subbed from "./pages/subbed.jsx";
-import Dubbed from "./pages/dubbed.jsx";
-import Series from "./pages/series.jsx";
-import Movies from "./pages/movies.jsx";
-import Popular from "./pages/popular.jsx";
+import Subbed from "./pages/Subbed.jsx";
+import Dubbed from "./pages/Dubbed.jsx";
+import Series from "./pages/Series.jsx";
+import Movies from "./pages/Movies.jsx";
+import Popular from "./pages/Popular.jsx";
 import TopComments from "./Comments/TopComments.jsx";
  import { ContextProvider } from "./Comments/Context/Context.jsx";
 import StarRate from "./RStar/StarRate.jsx";
