@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import "./app.css";
+import "./App.css";
 import Nav from "./navbar/nav";
 import Lights from "./lightchanger/SwitchStyles.jsx";
 // import Pages from "./info/pages.jsx"; 
