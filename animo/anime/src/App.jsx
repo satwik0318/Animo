@@ -5,7 +5,7 @@ import Lights from "./lightchanger/SwitchStyles.jsx";
 // import Pages from "./info/pages.jsx"; 
 import Menu from "./MenuBar/Menu.jsx"
 import { BrowserRouter as Router ,Route,Routes, Navigate} from "react-router-dom";
-import Home from "./pages/home.jsx";
+import Home from "./pages/Home.jsx";
 import Subbed from "./pages/subbed.jsx";
 import Dubbed from "./pages/dubbed.jsx";
 import Series from "./pages/series.jsx";
