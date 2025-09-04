@@ -1,5 +1,5 @@
 import React from 'react'
-import "./SearchList.css"
+import "./searchList.css"
 const searchList = ({result}) => {
   return (
     <div className='search-list'>
