@@ -3,7 +3,7 @@ import Sidebars from './Sidebars'
 import ChatContainer from "./ChatContainer"
 import RightsideBar from './RightsideBar'
 import { chatContext } from '../LoginPage/Context/ChatContext'
-const chathome = () => {
+const Chathome = () => {
     const {selectedUser,setSelectedUser}=useContext(chatContext)
   return (
     <div className='border  w-full h-screen sm:px-[15%] py-[5%]'>
@@ -17,4 +17,4 @@ const chathome = () => {
   )
 }
 
-export default chathome
+export default Chathome
