@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { FaUserCircle } from "react-icons/fa";
 import { BiMessage } from "react-icons/bi";
 import { AppContext } from '../LoginPage/Context/Appcontext';
-const chatprofile = () => {
+const Chatprofile = () => {
   const {updateProfile,isLoggedin,userData,setIsLoggedin,getUserData}=useContext(AppContext)
   const [selectedImg,setSelectedImg]=useState()
   const navigate=useNavigate()
@@ -54,4 +54,4 @@ const chatprofile = () => {
   )
 }
 
-export default chatprofile
+export default Chatprofile
