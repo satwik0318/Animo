@@ -22,7 +22,7 @@ import UserHome from "./LoginPage/UserHome.jsx";
 import { ToastContainer, toast } from 'react-toastify';
 import { AppContext, AppContextProvider } from "./LoginPage/Context/Appcontext.jsx";
 import ChatProfile from "./Chat/ChatProfile.jsx";
-import Chathome from "./Chat/chathome.jsx";
+import Chathome from "./Chat/Chathome.jsx";
 export default function App() {
   const isLoggedin=useContext(AppContext)
   return (
