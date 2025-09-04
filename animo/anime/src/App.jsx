@@ -21,7 +21,7 @@ import RegisterLogin from "./LoginPage/RegisterLogin.jsx";
 import UserHome from "./LoginPage/UserHome.jsx";
 import { ToastContainer, toast } from 'react-toastify';
 import { AppContext, AppContextProvider } from "./LoginPage/Context/Appcontext.jsx";
-import Chatprofile from "./Chat/chatprofile.jsx";
+import ChatProfile from "./Chat/ChatProfile.jsx";
 import Chathome from "./Chat/chathome.jsx";
 export default function App() {
   const isLoggedin=useContext(AppContext)
@@ -48,7 +48,7 @@ export default function App() {
           <>
         <Route path="/user-Home" element={<UserHome/>}/>
         <Route path="/chat-home" element={<Chathome/>}/>
-        <Route path="/chat-profile" element={<Chatprofile/>} />
+        <Route path="/chat-profile" element={<ChatProfile/>} />
     </> ):(<Navigate to={"/Register-login"}/> )}
         </Routes>
       </Router>
