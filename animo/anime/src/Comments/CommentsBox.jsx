@@ -5,7 +5,7 @@ import { useMainContext } from './Context/Context';
 import axios from 'axios';
 
 const backendUrl = import.meta.env.VITE_BACKEND_URL;
-
+console.log(backendUrl)
 const CommentsBox = (props) => {
   const { setMessageUpdate } = useMainContext();
   const changeOpenReply = useOpenReply();
